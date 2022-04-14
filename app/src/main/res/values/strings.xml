@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">News_App_Safin</string>
+    <string name="News">Новостная лента</string>
+    <string name="Sport">Спорт</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="news">Новости</string>
+    <string name="exit">Вы уверены, что хотите выйти?</string>
+    <string name="Yes">Да</string>
+    <string name="No">Нет</string>
+</resources>

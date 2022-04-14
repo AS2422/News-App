@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginEnd="16dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="4dp"
+    android:layout_marginStart="16dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardBackgroundColor="#101010">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutCarousel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_title_carousel"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/iv_carousel"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_carousel"
+            android:layout_marginStart="30dp"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            android:maxLength="50"
+            android:text="Новостная новость"
+            android:textColor="@color/white"
+            android:elevation="1dp"
+            />
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_carousel"
+            android:layout_width="200dp"
+            android:layout_height="112dp"
+            android:src="@drawable/ic_launcher_background"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
